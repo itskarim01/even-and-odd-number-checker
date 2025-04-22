@@ -16,7 +16,7 @@ function numChecker() {
     }
     // Handle input error when the user inserted a string
     else if (srtgChecker === true) {
-        document.getElementById('error').innerText = 'Incorrect Value'
+        document.getElementById('error').innerText = 'Value must be a Number'
     }
     // Compute the given number input to return an even or odd number
     else if (number % 2 == 0) {
